@@ -1,0 +1,23 @@
+HTTrack3.49-2+htsswf+htsjava launched on Mon, 28 Oct 2024 01:44:05 at https://www.huniarchitectes.com/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qYC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" -Y https://www.huniarchitectes.com/ -O1 "D:\atozzz" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+01:44:23	Error: 	"Not Found" (404) at link https://www.huniarchitectes.com/theme/images/icon_li.png (from https://www.huniarchitectes.com/theme/css/style.css)
+01:44:23	Error: 	"Not Found" (404) at link https://www.huniarchitectes.com/theme/images/big_transparent.gif (from https://www.huniarchitectes.com/theme/jQuery-smooth-scrolling/smoothDivScroll.css)
+01:44:23	Error: 	"Not Found" (404) at link https://www.huniarchitectes.com/theme/images/cursors/cursor_arrow_left.png (from https://www.huniarchitectes.com/theme/jQuery-smooth-scrolling/smoothDivScroll.css)
+01:44:23	Error: 	"Not Found" (404) at link https://www.huniarchitectes.com/theme/images/cursors/cursor_arrow_left.cur (from https://www.huniarchitectes.com/theme/jQuery-smooth-scrolling/smoothDivScroll.css)
+01:44:23	Error: 	"Not Found" (404) at link https://www.huniarchitectes.com/theme/images/cursors/cursor_arrow_right.png (from https://www.huniarchitectes.com/theme/jQuery-smooth-scrolling/smoothDivScroll.css)
+01:44:23	Error: 	"Not Found" (404) at link https://www.huniarchitectes.com/theme/images/cursors/cursor_arrow_right.cur (from https://www.huniarchitectes.com/theme/jQuery-smooth-scrolling/smoothDivScroll.css)
+01:44:23	Warning: 	Moved Permanently for https://www.huniarchitectes.com/en/introduction/
+01:44:23	Warning: 	File has moved from https://www.huniarchitectes.com/en/introduction/ to https://www.huniarchitectes.com/public/en/introduction
+01:44:57	Warning: 	Moved Permanently for https://www.huniarchitectes.com/fr/introduction/
+01:44:57	Warning: 	File has moved from https://www.huniarchitectes.com/fr/introduction/ to https://www.huniarchitectes.com/public/fr/introduction
+01:48:36	Error: 	"Not Found" (404) at link https://www.huniarchitectes.com/uploads/images/Introduction/1(1 (from https://www.huniarchitectes.com/public/en/introduction)
+01:50:09	Error: 	"Forbidden" (403) at link https://www.huniarchitectes.com/uploads/images/original/ (from https://www.huniarchitectes.com/fr/project/logements/villa-green-paradise.html)
+
+HTTrack Website Copier/3.49-2 mirror complete in 7 minutes 36 seconds : 1850 links scanned, 1838 files written (446154398 bytes overall) [439303629 bytes received at 963385 bytes/sec], 10832977 bytes transferred using HTTP compression in 645 files, ratio 26%, 142.3 requests per connection
+(8 errors, 4 warnings, 0 messages)

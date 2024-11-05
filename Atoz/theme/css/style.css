@@ -1,0 +1,371 @@
+@font-face {
+  font-family: "segan";
+  src: url("../font/Segan-Light.ttf");
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Tahoma, sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  background-color: #000;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+span {
+  margin: 0;
+  padding: 0;
+}
+ul,
+li,
+a {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+img {
+  border: none;
+}
+a:hover {
+  color: #999999 !important;
+}
+
+.wraper {
+  width: 100%;
+}
+
+.wrap {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+/********************   intro   **********************/
+.language {
+  background: url(../images/intro.png) no-repeat center top transparent;
+  background-position-x: 9px;
+  background-size: 85%;
+  width: 10.5em;
+  margin: 15% auto 0;
+  padding: 7em 0 0;
+  text-align: center;
+  overflow: hidden;
+}
+.language ul li {
+  float: left;
+  display: inline;
+  font-size: 0.8em;
+  color: #b28e54;
+  width: 50%;
+  text-align: center;
+}
+.language ul li a {
+  float: left;
+  display: inline;
+  color: #b28e54;
+  font-size: 1em;
+  margin: 0 1em;
+}
+.language ul li a:hover {
+  text-shadow: 1px 1px #b28e54;
+  font-size: 0.8em;
+  margin: 0 1.97em;
+  padding: 0.1em 0 0;
+}
+
+/******************  header  *********************/
+#container {
+  width: 100%;
+  overflow: hidden;
+  padding: 3em 0;
+}
+.main_left {
+  width: 19%;
+  height: 55em;
+  float: left;
+  overflow: hidden;
+  position: relative;
+}
+.logo img {
+  width: 30%;
+}
+.main_left .main_menu {
+  position: absolute;
+  bottom: 0;
+}
+.main_menu li {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.main_menu li a {
+  font-size: 0.8em;
+  color: #999999;
+}
+.main_menu li a.active {
+  color: #b28e54;
+}
+.main_menu li a:hover,
+.main_menu li.active a {
+  color: #b28e54 !important;
+}
+
+.main_menu li ul {
+  margin: 0;
+  padding: 0 0 0 5em;
+}
+
+.main_right {
+  width: 81%;
+  padding: 3em 0 0;
+  float: right;
+  overflow: hidden;
+}
+.main_right .project_box {
+  width: 75%;
+  max-width: 800px;
+  overflow: hidden;
+}
+.pro_item {
+  width: 33.333333333333333333333333%;
+  float: left;
+  display: inline;
+  background: url(../images/icon_right_bottom.png) no-repeat right bottom
+    transparent;
+}
+.pro_1 .background,
+.pro_2 .background,
+.pro_3 .background {
+  background: url(../images/icon_right.png) no-repeat right top transparent;
+}
+.pro_1 .background2,
+.pro_4 .background2,
+.pro_7 .background2 {
+  background: url(../images/icon_left_bottom.png) no-repeat left bottom
+    transparent;
+}
+.pro_1 .background3 {
+  background: url(../images/icon.png) no-repeat left top transparent;
+}
+.pro_item .box {
+  padding: 1.6em 1.6em 0em 1.6em;
+  overflow: hidden;
+}
+.pro_item .pro_image {
+  width: 100%;
+  overflow: hidden;
+}
+.pro_item .pro_image img {
+  width: 100%;
+  height: 13em;
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  filter: grayscale(100%);
+  transition: all 0.5s ease;
+}
+.pro_item .pro_image img:hover {
+  filter: none;
+  -webkit-filter: grayscale(0);
+}
+.pro_item .pro_name {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  padding: 0.5em 0 0;
+}
+.pro_item .pro_name a {
+  font-size: 0.5em;
+  color: #b28e54;
+  font-weight: normal;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+.info {
+  width: 100%;
+  overflow: hidden;
+  padding: 1em 0 0;
+  color: #987949;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  letter-spacing: 0.1em;
+}
+.info a {
+  width: 100%;
+  overflow: hidden;
+  padding: 1em 0 0;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+}
+.info .left {
+  width: 40%;
+  float: left;
+}
+.info .right {
+  width: 30%;
+  float: right;
+  text-align: right;
+}
+
+.info_lienhe {
+  font-size: 0.8em;
+  /*letter-spacing:0.4em;*/
+  color: #fff;
+  padding: 10em 0 15em;
+  overflow: hidden;
+}
+
+.info_zcontact {
+  font-size: 0.8em;
+  letter-spacing: 0.4em;
+  color: #fff;
+  padding: 8em 0 14em;
+  overflow: hidden;
+}
+.form {
+  width: 80%;
+  overflow: hi;
+  float: left;
+}
+.form .row_left {
+  width: 48%;
+  float: left;
+  overflow: hidden;
+}
+.form .inputbox {
+  background-color: #212121;
+  border: none;
+  color: #fff;
+  font-size: 1em;
+  padding: 0.3em;
+}
+.form .row {
+  color: #987949;
+  font-size: 0.8em;
+  overflow: hidden;
+}
+.form .row_right {
+  width: 48%;
+  float: right;
+  overflow: hidden;
+}
+.form .button_1 {
+  padding: 0.5em 0 0;
+  width: 100%;
+  overflow: hidden;
+}
+.form .button_1 .btn_gui,
+.form .button_1 .btn_reset {
+  font-size: 0.8em;
+  color: #987949;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/************************* navigation  *************************/
+.trang {
+  width: 60px;
+  height: 20px;
+  overflow: hidden;
+  padding: 0px;
+  margin: 0px 1em 0px 0px;
+}
+
+.navigation {
+  width: 86%;
+  overflow: hidden;
+  margin: 10px 0px 5px;
+  padding: 5px;
+  height: 20px;
+  text-align: right;
+  float: left;
+}
+.navigation .page_item {
+  font-size: 0.6em;
+  font-weight: normal;
+  margin: 0 0 0 0.5em;
+}
+.navigation a {
+  color: #999999;
+  font-size: 1.5em;
+  font-weight: normal;
+}
+
+.navigation a:hover {
+  color: #b28e54;
+}
+
+.navigation .current_page_item {
+  color: #b28e54;
+  font-size: 1em;
+  font-weight: normal;
+  margin: 0 0 0 0.5em;
+}
+
+/************************   tin chi tiet  **************************/
+.tin_chitiet .date_tin {
+  color: #7f7f7f;
+  padding: 0 0 1em 0;
+}
+.tin_chitiet .chu_thich {
+  padding: 0 0 1em 0;
+  overflow: hidden;
+  font-weight: bold;
+}
+.tin_chitiet .noi_dung {
+  padding: 0 0 1em 0;
+  overflow: hidden;
+}
+.tin_lienquan {
+  width: 100%;
+  overflow: hidden;
+  margin: 3em 0 1.5em;
+  padding: 0;
+}
+.tin_lienquan h3 {
+  width: 100%;
+  margin: 0 0 0.5em;
+  padding: 0 0 0 0.3em;
+  font-size: 1.2em;
+  color: #000;
+  border-left: 10px solid #9b6600;
+}
+.tin_lienquan h3 span {
+  font-size: 1.5em;
+}
+.tin_lienquan li {
+  background: url(../images/icon_li.html) no-repeat left top transparent;
+  background-size: 5px 9px;
+  margin: 0 0 0.2em 2em;
+  padding: 0 0 0 1em;
+}
+.tin_lienquan li a {
+  font-size: 1em;
+  color: #333333;
+}
+.tin_lienquan li a:hover {
+  color: #cd100a;
+}
+
+#newlogo {
+  text-align: center;
+}
+#newlogo img {
+  max-width: 200px;
+}
